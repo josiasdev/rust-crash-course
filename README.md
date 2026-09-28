@@ -122,3 +122,12 @@ Execute all tests in `solutions` folder:
 ```shell
 find topics -type d -name solutions -exec bash -c 'cd "$0" && cargo test' {} \;
 ```
+
+## Credits
+
+Course content, notes, exercises and solutions in this repository are adapted from the official Cyfrin repository:
+
+- [Cyfrin/rust-crash-course](https://github.com/Cyfrin/rust-crash-course)
+- [Rust Programming Basics — Cyfrin Updraft](https://updraft.cyfrin.io/courses/rust-programming-basics)
+
+Original content © Cyfrin, licensed under the [GNU Affero General Public License v3.0](./LICENSE).
